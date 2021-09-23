@@ -1,0 +1,196 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+
+html {
+	font-size: 30px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.padding .block1 {
+	background-color: rgb(6, 6, 243);
+	padding: 200px 100px;
+}
+
+.padding .block2 {
+	background-color: rgb(125, 245, 4);
+	padding: 100px 30px 40px;
+}
+.padding .block3 {
+	background-color: rgb(211, 105, 30);
+	padding: 30px 20px 40px 10px;
+}
+
+.margin .block1 {
+	background-color: rgb(6, 6, 243);
+	margin: 200px 300px;
+}
+
+.margin .block2 {
+	background-color: rgb(125, 245, 4);
+	margin: 100px 30px 40px;
+}
+.margin .block3 {
+	background-color: rgb(211, 105, 30);
+	margin: 30px 20px 40px 10px;
+}
+
+.width .block1 {
+	background-color: rgb(6, 6, 243);
+	width: 600px;
+	margin: 0 0 20px 0;
+}
+
+.width .block2 {
+	background-color: rgb(125, 245, 4);
+	min-width: 600px;
+	margin: 0 0 20px 0;
+}
+
+.width .block3 {
+	background-color: rgb(211, 105, 30);
+	max-width: 800px;
+	margin: 0 0 20px 0;
+}
+
+.height .block1 {
+	background-color: rgb(6, 6, 243);
+	height: 100px;
+	margin: 0 0 20px 0;
+}
+
+.height .block2 {
+	background-color: rgb(125, 245, 4);
+	min-height: 100px;
+	margin: 0 0 20px 0;
+}
+
+.height .block3 {
+	background-color: rgb(211, 105, 30);
+	max-height: 100px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+.center .block1 {
+	background-color: rgb(238, 11, 11);
+	padding: 10px;
+	max-width: 200px;
+	margin: 0 auto;
+}
+.center .block2 {
+	background-color: #03f540;
+	padding: 10px;
+	max-width: 200px;
+	margin: 0 0 0 auto;
+}
+
+.center .block3 {
+	background-color: #2f03f5;
+	padding: 10px;
+	max-width: 200px;
+	margin: 0 auto 0 0;
+}
+
+.overflow .block1 {
+	background-color: rgb(8, 43, 245);
+	padding: 30px;
+	max-height: 300px;
+	margin: 30px;
+	overflow: auto;
+}
+
+.overflow .block2 {
+	background-color: rgb(245, 8, 8);
+	padding: 30px;
+	max-height: 300px;
+	overflow: visible;
+	margin: 30px 30px 150px;
+}
+
+.overflow .block3 {
+	background-color: rgb(8, 245, 20);
+	padding: 30px;
+	max-height: 315px;
+	overflow: hidden;
+	margin: 30px;
+}
+
+span {
+	background-color: rgb(248, 252, 8);
+}
+
+.display .block1 {
+	background-color: rgb(240, 9, 9);
+	max-width: 400px;
+	display: inline;
+	margin: 0 0 30px 0;
+}
+
+.display .block2 {
+	background-color: rgb(13, 241, 51);
+	max-width: 500px;
+	display: inline-block;
+	margin: 0 0 30px 0;
+}
+
+.display .block3 span {
+	background-color: rgb(59, 6, 252);
+	max-width: 500px;
+	display: block;
+	margin: 0 0 30px 0;
+}
+
+.display .block3 .span {
+	background-color: rgb(248, 252, 8);
+	display: inline;
+}
+
+.display .block4 p {
+	background-color: rgb(241, 13, 184);
+	max-width: 500px;
+	display: none;
+}
