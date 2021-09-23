@@ -171,6 +171,10 @@ span {
 	margin: 0 0 30px 0;
 }
 
+.display .block1 span {
+	display: inline;
+}
+
 .display .block2 {
 	background-color: rgb(13, 241, 51);
 	max-width: 500px;
